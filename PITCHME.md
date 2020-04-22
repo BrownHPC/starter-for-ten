@@ -16,23 +16,17 @@ An application architecture for React
 
 ---
 
-
-    ```elixir
-    defmodule GenMetrics.GenStage.Monitor do
-        use GenServer
-
-        alias GenMetrics.GenStage.Manager
-        alias GenMetrics.GenStage.Monitor
-        alias GenMetrics.GenStage.Pipeline
-        alias GenMetrics.GenStage.Window
-        alias GenMetrics.Reporter
-        alias GenMetrics.Utils.Runtime
-
-        @moduledoc false
-        @handle_demand :handle_demand
-        @handle_events :handle_events
-        @handle_call   :handle_call
-        @handle_cast   :handle_cast
-
-        defstruct pipeline: %Pipeline{}, metrics: nil, start: 0, duration: 0
-    ```
+```bash
+# check status of your git repo including what's changed
+# and what's not being tracked
+git status
+# add file contents to be ready to be committed
+git add FILE 
+# commit file contents to the local repository
+git commit FILE
+# commit all added/modified/deleted file contents with
+# specific message
+git commit -a -m "commit message"
+# push file contents to the remote (i.e. cloud) repository
+git push 
+```
