@@ -15,12 +15,9 @@ An application architecture for React
 ![Flux Explained](https://facebook.github.io/flux/img/flux-simple-f8-diagram-explained-1300w.png)
 
 ---
-    @snap[north span-100]
-    #### Fenced Code Block
-    @snapend
 
 
-    ````
+    ```elixir
     defmodule GenMetrics.GenStage.Monitor do
         use GenServer
 
@@ -38,4 +35,4 @@ An application architecture for React
         @handle_cast   :handle_cast
 
         defstruct pipeline: %Pipeline{}, metrics: nil, start: 0, duration: 0
-    ````
+    ```
