@@ -16,9 +16,6 @@ An application architecture for React
 
 ---
 
-@snap[north span-100]
-#### Fenced Code Block
-@snapend
 
     ```elixir
     defmodule GenMetrics.GenStage.Monitor do
